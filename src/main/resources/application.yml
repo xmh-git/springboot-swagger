@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /xmh-git
+
+logging:
+  level:
+    root: info
+  config: classpath:slf4j2-config.xml

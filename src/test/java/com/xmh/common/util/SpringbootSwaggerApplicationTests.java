@@ -1,4 +1,4 @@
-package com.xmh.swagger;
+package com.xmh.common.util;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
