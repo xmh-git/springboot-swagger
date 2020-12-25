@@ -21,6 +21,7 @@ public class EquipmentController {
     private EquipmentService equipmentService;
 
     @ApiOperation("通过id获取设备信息")
+
     @GetMapping("/{id}")
     public String get(Long id) {
         return this.equipmentService.getById(id);
